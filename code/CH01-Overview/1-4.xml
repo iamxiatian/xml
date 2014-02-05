@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<?xml-stylesheet type="text/xsl" href="1-5.xsl"?>
+<books>
+	<book isbn="7-302-02368-9">
+		<title>数据结构</title>
+		<author>严蔚敏，吴伟民</author>
+		<publisher>清华大学出版社</publisher>
+		<price>22.0</price>
+	</book>
+</books>

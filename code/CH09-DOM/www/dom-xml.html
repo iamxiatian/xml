@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>XML DOM Example</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript">
+            function loadXmlFromFile(xmlFile) {
+                xhttp=new XMLHttpRequest();
+                xhttp.open("GET",xmlFile,false);
+                xhttp.send();
+                return xhttp.responseXML;
+            }
+            
+            function loadXmlFromText(text) {
+                parser=new DOMParser();
+                xmlDoc=parser.parseFromString(text,"text/xml");
+                return xmlDoc
+            }
+            
+            $(document).ready(function(){
+                xmlDoc = loadXmlFromFile('books.xml');
+                xmlDoc.getElementsByTagName("book");
+                var doc2 = loadXmlFromText("<root>hello</root>");
+                //alert(xmlDoc);
+                alert(doc2);
+            });
+        </script>
+    </head>
+    <body id="main">
+        <h1 id="headline">图书列表</h1>
+        <div id="content">
+            <span>今天的心情是：</span>
+            <label for="happy_mood">开心</label><input id="happy_mood" type="radio" name="mood" value="happy"/>
+            <label for="bad_mood">心情不好</label><input id="bad_mood" type="radio" name="mood" value="bad"/>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="test">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="hello" type="yearListType"/>
+				<xsd:element name="whichYear" type="yearUnionType"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:simpleType name="mobileType">
+		<xsd:restriction base="xsd:string">
+			<xsd:length value="11"/>
+			<xsd:pattern value="\d{11}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="test">
+		<xsd:restriction base="mobileType"/>
+	</xsd:simpleType>
+	<xsd:simpleType name="anIntegerType">
+		<xsd:restriction base="xsd:integer">
+			<xsd:minInclusive value="10"/>
+			<xsd:maxInclusive value="100"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="aStringType">
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="4"/>
+			<xsd:maxLength value="16"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="genderType">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="男"/>
+			<xsd:enumeration value="女"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="yearType">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="\d{4}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="yearListType">
+		<xsd:list itemType="yearType"/>
+	</xsd:simpleType>
+	<xsd:element name="whichYear" type="yearUnionType"/>
+	<xsd:simpleType name="yearUnionType">
+		<xsd:union memberTypes="xsd:date yearListType"/>
+	</xsd:simpleType>
+	
+	<xsd:element name="name" type="type" default="default" minOccures="1" maxOccures="3"/>
+</xsd:schema>

@@ -1,0 +1,17 @@
+book {display:block; margin:5px;}
+title { width:200px; border: 1px solid grey;display:inline-block;padding:2px;padding-left:10px;}
+price { width:50px; border: 1px solid grey;display:inline-block;padding:2px;}
+press { width:200px; border: 1px solid grey; display:inline-block;padding:2px;}
+authors, pages, description, cover {display: none;}
+/*
+#b1 { color: black; }
+title {color: blue;}
+title[lang] {color: orange;}
+*[isbn] {color:green;}
+title[lang="CHN"] {color: red;}
+title, press {color: red;}
+#b1 title {color: blue;}
+
+book title[lang] {color: blue;}
+book[isbn] title {color: red;}
+*/

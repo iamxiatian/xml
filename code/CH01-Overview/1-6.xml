@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312"?>
+<?xml-stylesheet href="1-6.css" type="text/css"?>
+<websites xmlns:xlink="http://www.w3.org/1999/xlink">
+	<site xlink:type="simple" xlink:show="replace" 
+			xlink:href="http://www.ruc.edu.cn">中国人民大学</site>
+	<site xlink:type="simple" xlink:show="replace" 
+			xlink:href="http://www.irm.cn">中国人民大学信息资源管理学院</site>
+</websites>

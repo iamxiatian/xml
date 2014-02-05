@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="4-7.xsd" periods="4">
+    <title>XML原理与应用</title>
+</course>

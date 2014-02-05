@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE books [
+	<!ELEMENT books (book)+>
+	<!ELEMENT book EMPTY>
+	<!ATTLIST book 
+		title CDATA #REQUIRED
+		author CDATA #REQUIRED
+	>
+]>
+<books>    
+	<book title="神曲" author="但丁"/>
+	<book title="哈姆雷特" author="莎士比亚"/>
+	<book title="浮士德" author="歌德"/>
+	<book title="哈克贝利芬历险记" author="马克·吐温"/>
+	<book title="少年维特之烦恼" author="歌德"/>
+</books>
+
+
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="2-1.css"?>
+<?topdf path="/pdf-files" ?>
+<!-- 个人通讯录 -->
+<addressList>
+	<group name="同学">
+		<person>
+			<name>吴泽林</name>
+			<birthday>1985-09-11</birthday>
+			<mobile>135-1234-5678</mobile>
+			<telephone>68689999</telephone>
+			<email>wuzelin@163.com</email>
+			<address>漳州</address>
+		</person>
+		<person>
+			<name>李海光</name>
+			<birthday>1984-09-18</birthday>
+			<mobile>136-1234-5678</mobile>
+			<telephone>58689119</telephone>
+			<email>lihg@163.com</email>
+			<address>大理</address>
+		</person>
+	</group>	
+	<group name="网友">
+		<person>
+			<name>罗中华</name>
+			<mobile>136-1111-1118</mobile>
+			<telephone>22339999</telephone>
+			<email>luozh@163.com</email>			
+			<address>北京</address>
+		</person>
+	</group>	
+	<group name="待升级">
+		<person>
+			<name>杨子荣</name>
+			<mobile>136-1111-1119</mobile>
+			<telephone>78689903</telephone>
+			<email>yangzr@163.com</email>
+			<companyName>中国电信</companyName>
+			<address>天津</address>
+		</person>
+	</group>		
+</addressList>
+
+<!-- 处于篇幅考虑，书中源代码内容有删减，读者可以通过附带源码查看更多信息 -->

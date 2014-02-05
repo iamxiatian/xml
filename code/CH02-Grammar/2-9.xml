@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<demo>
+	<todo day="1" 
+		  month='1' 
+		  year="2010" 
+		  body="使用Python访问XML文件，并对比与Java实现的区别"/>
+</demo>

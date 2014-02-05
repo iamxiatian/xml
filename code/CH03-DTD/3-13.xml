@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<!DOCTYPE 数据 [
+	<!ELEMENT 数据 (#PCDATA)>
+	<!ENTITY 机构 "人民大学">
+	<!ENTITY 声明 "自由信息，由&机构;编写"> 
+]>
+<数据>&声明;</数据>

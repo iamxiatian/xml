@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="4-18.xsd" code="1234">
+    <name>XML in Action</name>
+    <teacher>Summer</teacher>
+</course>

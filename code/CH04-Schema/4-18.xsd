@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">   
+    <xsd:element name="course" type="courseType"/>
+    
+    <xsd:annotation>
+        <xsd:appinfo source="4-18.html"/>
+        <xsd:documentation xmlns:html="http://www.w3.org/1999/xhtml">
+            <html:p>
+                这是一个注解的使用示例，下面所声明的<html:strong>courseType</html:strong>自定义复杂类型，
+                为课程类型，包含两个子元素和一个属性。
+            </html:p>
+        </xsd:documentation>
+    </xsd:annotation>
+    
+    <!-- 以下为课程类型的声明，一个课程类型包含名称name和教师teacher两个子元素和课程代号code属性 -->
+    <xsd:complexType name="courseType">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="teacher" type="xsd:string" form="unqualified"/>
+        </xsd:sequence>
+        <xsd:attribute name="code" type="xsd:string" form="qualified" use="required">
+            <xsd:annotation>
+                <xsd:documentation>课程必须要有课程代号属性code</xsd:documentation>
+            </xsd:annotation>
+        </xsd:attribute>
+    </xsd:complexType>
+</xsd:schema>

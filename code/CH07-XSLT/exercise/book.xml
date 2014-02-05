@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- <?xml-stylesheet type="text/css" href="book.css"?> -->
+<?xml-stylesheet type="text/xsl" href="exercise-4.xsl"?>
+<!--  经典图书  -->
+<books>
+    <provider>Summer</provider>
+    <book isbn="978-7-115-21703-5">
+        <title>Python高级编程</title>
+        <price>45.00</price>
+        <authors>
+            <author>Tarek Ziade</author>
+            <author type="translator">姚军</author>
+            <author type="translator">夏海伦</author>
+            <author type="translator">王秀丽</author>
+        </authors>
+        <press>人民邮电出版社</press>
+        <pages>306</pages>
+        <description>通过大量的实例，介绍了Python语言的最佳实践和敏捷开发方法，并涉及整个软件生命周期的高级主题，诸如持续集成、版本控制系统、包的发行和分发、开发模式、文档编写等。</description>
+        <cover>book-python.jpg</cover>
+    </book>
+    <book isbn="978-7-115-28282-8">
+        <title>数学之美</title>
+        <price>45.00</price>
+        <authors>
+            <author>吴军</author>
+        </authors>
+        <press>人民邮电出版社</press>
+        <pages>304</pages>
+        <description>读了“数学之美”，才发现大学时学的数学知识，比如马尔科夫链、矩阵计算，甚至余弦函数原来都如此亲切，并且栩栩如生，才发现自然语言和信息处理这么有趣，
+            才真正明白“数学是科学的皇后”这句名言。</description>
+        <cover>book-math.jpg</cover>
+    </book>
+    <book isbn="978-7-5641-1139-7">
+        <title>集体智慧编程(影印版)</title>
+        <price>58.00</price>
+        <authors>
+            <author>Toby Segaran</author>
+        </authors>
+        <press>东南大学出版社</press>
+        <pages>334</pages>
+        <description>Toby的书非常成功地将复杂的机器学习算法问题…</description>
+        <cover>book-collective.jpg</cover>
+    </book>
+</books>

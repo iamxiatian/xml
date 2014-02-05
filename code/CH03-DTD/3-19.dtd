@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ENTITY % prefix "edu">
+<!ENTITY % bookElementName "%prefix;:book">
+<!ENTITY % booksElementName "%prefix;:books">
+<!ELEMENT %booksElementName; (%bookElementName;)+>
+<!ELEMENT %bookElementName; EMPTY>
+<!ATTLIST %bookElementName;
+	title CDATA #REQUIRED
+	author CDATA #REQUIRED
+>

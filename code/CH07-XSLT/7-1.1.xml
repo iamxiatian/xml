@@ -1,0 +1,5 @@
+<v1:order xmlns:v1="http://www.test.com/v1">
+    <product name="打印纸" price="30" quantity="5"/>
+</v1:order>
+
+

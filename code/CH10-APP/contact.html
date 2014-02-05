@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>JSON Example</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript">
+            function loadJSON(jsonfile) {
+                xhttp=new XMLHttpRequest();
+                xhttp.open("GET",jsonfile,false);
+                xhttp.send();
+                return xhttp.responseText;
+            }
+            
+            $(document).ready(function(){
+                jsontext = loadJSON('contact.json');
+                var contact = JSON.parse(jsontext);
+
+                var buffer = '';
+                for(var i=0; i<contact.phoneNumbers.length; i++) {
+                    buffer = buffer + contact.phoneNumbers[i].number + " ";
+                }
+                $('#content').html(buffer);
+            });
+        </script>
+    </head>
+    <body id="main">
+        <div id="content">
+           
+        </div>
+    </body>
+</html>

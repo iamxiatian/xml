@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<!DOCTYPE 数据 [
+	<!ELEMENT 数据 (#PCDATA)>
+	<!NOTATION JPG SYSTEM "image/jpeg">
+	<!ENTITY 插图 SYSTEM "ruc_1.jpg" NDATA JPG>	
+	<!ATTLIST 数据 插图	ENTITY #IMPLIED>	
+]>
+<数据 插图="插图">外部非解析通用实体示例</数据>

@@ -1,0 +1,4 @@
+<!ELEMENT 联系方式 (客服电话, 网址)>
+<!ELEMENT 客服电话 (#PCDATA)>
+<!ELEMENT 网址 (#PCDATA)>
+

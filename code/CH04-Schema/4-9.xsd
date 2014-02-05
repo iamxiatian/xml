@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="student" type="studentType"/>
+    
+    <xsd:complexType name="personType">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="age" type="xsd:integer"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="studentType">
+        <xsd:complexContent>
+            <xsd:extension base="personType">
+                <xsd:sequence>
+                    <xsd:element name="class" type="xsd:string"/>
+                    <xsd:element name="major" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+</xsd:schema>

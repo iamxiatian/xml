@@ -1,0 +1,3 @@
+<!ELEMENT 外观 (颜色, 体积)>
+<!ELEMENT 颜色 (#PCDATA)>
+<!ELEMENT 体积 (#PCDATA)>

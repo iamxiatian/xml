@@ -1,0 +1,18 @@
+book {display:block; margin:5px; }
+title { width:200px; border: 1px solid grey;display:inline-block;padding:2px;padding-left:10px;}
+price { width:50px; border: 1px solid grey;display:inline-block;padding:2px;}
+press { width:200px; border: 1px solid grey; display:inline-block;padding:2px;}
+authors, pages, description, cover {display: none;}
+
+book {font-family: "Times New Roman", "微软雅黑", Serif;}
+title {font-weight:bold;}
+press {font-variant:small-caps;}
+book#b2 title {font-size: larger;}
+book#b2 price {font-size: 10pt;}
+title {
+    font-style: italic;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: arial, sans-serif;
+}
+title { font: italic bold 16px arial,sans-serif;}

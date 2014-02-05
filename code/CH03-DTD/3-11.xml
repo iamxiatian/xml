@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE 高校列表 [
+	<!ELEMENT 高校列表 (高校)*>
+	<!ELEMENT 高校 (#PCDATA)>
+	<!ATTLIST 高校 LOGO ENTITY #REQUIRED
+				   校园风景 ENTITIES #IMPLIED>
+	<!NOTATION JPG SYSTEM "image/jpeg">
+	<!ENTITY LOGO2 SYSTEM "ruc_logo.jpg" NDATA JPG>
+	<!ENTITY 风景_人大_1 SYSTEM "ruc_1.jpg" NDATA JPG>
+	<!ENTITY 风景_人大_2 SYSTEM "ruc_2.jpg" NDATA JPG>
+]>
+<高校列表>
+	<高校 LOGO="LOGO2" 校园风景="风景_人大_1 风景_人大_2">人民大学</高校>
+</高校列表>

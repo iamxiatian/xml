@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+	<name>吴泽林</name>
+	<birthday>1985-09-11</birthday>
+	<mobile>135-1234-5678</mobile>
+	<telephone>68689999</telephone>
+	<email>wuzelin@163.com</email>
+	<address>漳州</address>
+</person>

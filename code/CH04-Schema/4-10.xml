@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="4-10.xsd">
+    <name>刘备</name>
+    <age>35</age>
+    <name>张飞</name>
+    <age>35</age>
+</person>

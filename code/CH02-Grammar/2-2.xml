@@ -1,0 +1,6 @@
+<!-- 注释不应该出现在XML声明之前 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <head>注释测试例子</head>
+    <body>正文内容</body>
+</document>

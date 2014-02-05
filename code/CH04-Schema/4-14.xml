@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test:course xmlns:test="http://www.example.org/test"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.example.org/test 4-14.xsd" code="106">
+    <name>数据挖掘</name>
+    <teacher>夏天</teacher>
+</test:course>

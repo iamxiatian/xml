@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE 古诗 [
+	<!ELEMENT 古诗 (#PCDATA)>
+	<!ATTLIST 古诗 xml:space (default|preserve) "preserve">
+]>
+<古诗>
+日照香炉生紫烟，       遥看瀑布挂前川；
+飞流直下三千尺，       疑是银河落九天。
+</古诗>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT books (book)+>
+<!ELEMENT book EMPTY>
+<!ATTLIST book 
+	title CDATA #REQUIRED
+	author CDATA #REQUIRED
+>	
+<!ENTITY WRITER
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:attribute name="code" type="xsd:string"/>
+    <xsd:attribute name="classroom"/>
+    <xsd:attribute name="category">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:enumeration value="专业选修"/>
+                <xsd:enumeration value="专业必修"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:attribute>
+</xsd:schema>

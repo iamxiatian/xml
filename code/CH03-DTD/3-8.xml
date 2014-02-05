@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE 人物 [
+	<!ELEMENT 人物 (#PCDATA|姓名|籍贯|职业|特长)* >
+	<!ELEMENT 姓名 (#PCDATA)>
+	<!ELEMENT 籍贯 (#PCDATA)>
+	<!ELEMENT 职业 (#PCDATA)>
+	<!ELEMENT 特长 (#PCDATA)>
+]>
+<人物>
+	<姓名>林冲</姓名>，<籍贯>东京</籍贯>人氏，人称豹子头，官方认定其为水泊梁山<职业>强盗</职业>。生性耿直，爱交好汉，擅长<特长>枪棒</特长>。	
+</人物>
+

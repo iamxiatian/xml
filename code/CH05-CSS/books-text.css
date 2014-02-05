@@ -1,0 +1,8 @@
+book {display:block; margin:5px; }
+title { width:250px; border: 1px solid grey;display:inline-block;padding:2px;padding-left:10px;}
+price { width:50px; border: 1px solid grey;display:inline-block;padding:2px;}
+press { width:250px; border: 1px solid grey; display:inline-block;padding:2px;}
+authors, pages, description, cover {display: none;}
+
+title {text-indent:1em; text-decoration:underline;letter-spacing:0.1em;}
+press {text-align:center; word-spacing:1cm;text-transform:uppercase;}

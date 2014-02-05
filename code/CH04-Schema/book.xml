@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<book isbn="7535421016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://example.org/bok book.xsd" xmlns="http://example.org/book">
+	<name>康熙大帝</name>
+	<author>二月河</author>	
+	<price>86</price>
+	<pages>2012</pages>	
+	<introduction>清顺治十八年，恶疾天花袭击了皇宫，皇帝爱妃命丧黄泉，顺治痛不欲生，立意遁入空门。危急之际...</introduction>
+	<publish>
+		<publisher>长江文艺出版社</publisher>
+		<pubDate>2006-01-01</pubDate>
+	</publish>	
+</book>

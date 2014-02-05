@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<book>    
+	<name author="罗贯中">三国演义</name>
+	<name author="曹雪芹">红楼梦</name>
+	<name author="施耐庵">水浒传</name>
+	<name author="吴承恩">西游记</name>
+	<name author="荷马">荷马史诗</name>
+</book>
+
+
+

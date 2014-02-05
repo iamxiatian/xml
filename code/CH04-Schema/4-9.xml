@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="4-9.xsd">
+    <name>刘鹏</name>
+    <age>20</age>
+    <class>2050</class>
+    <major>信息</major>
+</student>

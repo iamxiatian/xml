@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<book isbn="978-7-020-02475-9"> 
+    <title lang="CHN">围城</title>
+    <price>19.00</price>
+    <authors>
+        <author>钱钟书 </author>
+    </authors>
+    <press>人民文学出版社</press>
+    <pages>359</pages>
+    <description>人们对它的评价一般集中在两方面，幽默的语言和对生活深刻的观察...</description>
+    <cover>book-weicheng.jpg</cover>
+</book>
+

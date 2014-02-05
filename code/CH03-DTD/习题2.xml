@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE todolist [
+<!ELEMENT todolist (todo)*>
+<!ELEMENT todo EMPTY>
+<!ATTLIST todo id ID #IMPLIED>
+<!ATTLIST todo timestamp ID #IMPLIED>
+<!ATTLIST todo content CDATA #REQUIRED>
+<!ATTLIST todo weekday (MON|TUES|WED|THU|FRI|SAT|SUN) "MON">
+]>
+<todolist>
+	<todo id="1" timestampe="T20100101001" content="当股价>100的时候抛出'全聚德'"></todo>
+	<todo id="2" timestampe="T20100101002" content="周末旅游去沂蒙山" weekday="周六"/>
+	<todo id="3" timestampe="T20100101003" weekday="FRI"/>	
+</todolist>

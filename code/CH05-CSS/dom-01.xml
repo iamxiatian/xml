@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DOM Demo -->
+<book>
+    <title>从1到无穷大</title>
+    <info author="乔治·伽莫夫" isbn="978-7-03-010759-6"/>
+</book>

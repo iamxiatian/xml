@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="4-12.xsd">
+    <name>克林顿</name>
+    <age>40</age>
+    <wife>希拉里</wife>
+    <height>185</height>
+    <weight>180</weight>
+</person>

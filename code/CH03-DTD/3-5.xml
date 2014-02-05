@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE universities SYSTEM "3-5.dtd"[
+	<!ENTITY RUC "人民大学">
+]>
+
+<universities>    
+	<university>&RUC;</university>
+	<university>北京大学</university>
+	<university>清华大学</university>
+</universities>
+
+
+

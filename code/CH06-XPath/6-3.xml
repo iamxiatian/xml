@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abc:order id="TEST-01" xmlns:abc="http://www.abc.com" xmlns:abc2="http://www.abc2.com">
+    <?backup dbname="order"?>
+    <product name="打印纸" price="30" quantity="5"/>
+    <product name="圆珠笔" price="2" quantity="10"/>
+    <product name="铅笔" price="1.5" quantity="10"/>
+    <product name="白板" price="80" quantity="2"/>
+</abc:order>

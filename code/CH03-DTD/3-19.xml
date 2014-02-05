@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<!DOCTYPE ruc:books SYSTEM "3-19.dtd"[
+	<!ENTITY % prefix "ruc">
+]>
+<ruc:books>    
+	<ruc:book title="少年维特之烦恼" author="歌德"/>
+</ruc:books>

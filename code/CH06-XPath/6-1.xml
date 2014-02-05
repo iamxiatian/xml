@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order id="TEST-01">
+	<?backup dbname="order"?>
+	<product name="打印纸" price="30" quantity="5"/>
+	<product name="圆珠笔" price="2" quantity="10"/>
+	<product name="铅笔" price="1.5" quantity="10"/>
+	<product name="白板" price="80" quantity="2"/>
+</order>

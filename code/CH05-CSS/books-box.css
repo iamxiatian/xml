@@ -1,0 +1,9 @@
+book {display:block; margin:5px;  }
+title { width:250px; border: 1px solid grey;display:inline-block;padding:2px;padding-left:10px;}
+price { width:50px; border: 1px solid grey;display:inline-block;padding:2px;}
+press { width:250px; border: 1px solid grey; display:inline-block;padding:2px;}
+authors, pages, description, cover {display: none;}
+
+book { margin-bottom:15px;}
+title, price, press {border-color:transparent; border-bottom: 2px solid gray;}
+price {padding-left:20px;background:yellow;}

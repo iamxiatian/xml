@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE person [
+	<!ELEMENT person (name, telephone, email)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT email (#PCDATA)>
+	<!ELEMENT telephone (#PCDATA)>	
+]>
+<person>
+	<name>夏天</name>
+	<telephone>010-82500673</telephone>
+	<email>xiat@ruc.edu.cn</email>
+</person>
+

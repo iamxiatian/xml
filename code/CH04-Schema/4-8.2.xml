@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="4-8.1.xsd" 
+    isbn="6-666-66666-6">
+    XML原理与应用
+</book>

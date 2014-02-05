@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<person xmlns:friend="http://www.demo.org/friend"
+		xmlns:staff="http://www.demo.org/friend">
+	<name friend:group="大学" staff:group="北京">秦琼</name>
+</person>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="person" type="personType"/>  
+    
+    <xsd:group name="HeightAndWeightGroup">
+        <xsd:sequence>
+            <xsd:element name="height" type="xsd:integer"/>
+            <xsd:element name="weight" type="xsd:integer"/>
+        </xsd:sequence>
+    </xsd:group>
+    
+    <xsd:complexType name="personType">
+        <xsd:sequence minOccurs="1" maxOccurs="10">
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="age" type="xsd:integer"/>
+            <xsd:choice>
+                <xsd:element name="wife" type="xsd:string"/>
+                <xsd:element name="husband" type="xsd:string"/>
+            </xsd:choice>
+            <xsd:group ref="HeightAndWeightGroup"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

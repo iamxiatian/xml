@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:au="http://example.org/author">
+	<xsd:include schemaLocation="4-2.2.xsd"/>
+	<xsd:import namespace="http://example.org/author" schemaLocation="4-2.3.xsd"/>
+	<xsd:element name="favorite">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="bookInfo" type="bookType"/>
+				<xsd:element name="authorInfo" type="au:authorType"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

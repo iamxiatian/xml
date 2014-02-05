@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<demo>
+    <content>
+		&lt;group name="同学"&gt;
+			&lt;person&gt;
+				&lt;name&gt;吴泽林&lt;/name&gt;
+				&lt;birthday&gt;1985-09-11&lt;/birthday&gt;
+				&lt;mobile&gt;135-1234-5678&lt;/mobile&gt;
+				&lt;telephone&gt;68689999&lt;/telephone&gt;
+				&lt;email&gt;wuzelin@163.com&lt;/email&gt;
+				&lt;address&gt;漳州&lt;/address&gt;
+			&lt;/person&gt;
+		&lt;/group&gt;
+	</content>
+</demo>

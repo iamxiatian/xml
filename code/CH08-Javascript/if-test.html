@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>IF DEMO</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    </head>
+    <body>
+        <script type="text/javascript">
+            //get current date and time
+            var d = new Date();
+            var hour = d.getHours();
+            document.write("HOUR=" + hour + "<br/>");
+            var msg;
+            if((hour>=7) && (hour<12)) {
+                msg = '上午';
+            } else if((hour>=12) && (hour<18)){
+                msg = '下午';
+            } else if((hour>=18) && (hour<22)) {
+                msg = '晚上';
+            } else {
+                msg = '夜间';
+            }            
+            document.write('现在是：' + msg);
+        </script>
+    </body>
+</html>

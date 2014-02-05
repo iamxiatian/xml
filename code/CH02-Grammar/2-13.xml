@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<employees xmlns="http://www.demo.org/human_resources"
+		   xmlns:boss="http://www.demo.org/big_boss">
+	<employee>
+		<name>金成</name>
+		<birthday>1982-08</birthday>
+		<hiredate>2005-09</hiredate>
+		<major>软件开发</major>
+		<boss:comment>表现优秀，增加10%薪水</boss:comment>
+		<comment>薪水已调整</comment>
+		<projects>
+			<project name="项目A" role="工程师" year="2006"/>
+			<project name="项目B" role="架构师" year="2007"/>
+		</projects>
+	</employee>
+</employees>

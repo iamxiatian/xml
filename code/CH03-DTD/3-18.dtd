@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY % 教师基本信息 "(姓名, 专业)">
+<!ELEMENT 教授 %教师基本信息;>
+<!ELEMENT 讲师 %教师基本信息;>
+<!ENTITY % completeName "p">
+<!ENTITY % sxsd "(%completeName;:XXX, child2)" >

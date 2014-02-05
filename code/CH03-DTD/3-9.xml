@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE todolist [
+	<!ELEMENT todolist (todo)*>
+	<!ELEMENT todo EMPTY>
+	<!ATTLIST todo content CDATA #REQUIRED> 	
+]>
+<todolist>
+	<todo content="当股价>100的时候抛出'全聚德'"/>
+	<todo content="周六&amp;周日回山东临朐"/>	
+</todolist>

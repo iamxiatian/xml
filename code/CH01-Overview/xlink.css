@@ -1,0 +1,109 @@
+@import url(html.css);
+
+table[class="head"]
+{
+  width: 100%;
+  background-color: #33ccff;
+}
+
+table[class="head"] > td
+{
+  vertical-align:middle;
+  font-weight: bold;
+}
+
+*[align="right"]
+{
+  text-align: right;
+}
+
+text
+{
+  display: block;
+}
+
+*[class="figure-text"]
+{
+  font-size: x-small;
+}
+
+*[class="feature-title"]
+{
+  font-weight: bold;
+  color: #cc9933;
+}
+
+
+* + table
+{
+  margin-top: 30px;
+}
+
+* + table td
+{
+  padding: 10px;
+}
+
+td[class~=title]
+{
+  padding-top: 0;
+}
+
+tr[class="odd"] > td
+{
+  background-color: #ccffcc;
+}
+
+
+td[class~="doc"]
+{
+  width: 40%;
+}
+
+td[class~="xlink"]
+{
+  border-left: 2px black solid;
+}
+
+td[class="xlink code"]
+{
+  vertical-align: middle;
+  font-size: smaller;
+}
+
+link, fake-link2
+{
+  color: blue;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+fake-link
+{
+  color: blue;
+}
+
+*[class="xlink-code"]
+{
+  font-family: terminal, "courier new";
+}
+
+*[class="xlink-code"] > t2
+{
+  margin-left: 12px;
+  display: block;
+}
+
+*[class="xlink-code"] > t3
+{
+  margin-left: 24px;
+  display: block;
+}
+
+*[class="code-info"]
+{
+  font-family: "bookman old style";
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+

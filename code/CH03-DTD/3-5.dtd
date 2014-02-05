@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT universities (university)+>
+<!ELEMENT university (#PCDATA)>
+<!ENTITY RUC "中国人民大学">

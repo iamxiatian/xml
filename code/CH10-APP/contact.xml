@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contact>
+    <name>王某某</name>
+    <age>30</age>
+    <spouse>
+        <name>张某某</name>
+        <age>28</age>
+    </spouse>
+    <addresses>
+        <address>
+            <description>工作住址</description>
+            <street>胜利大街9号</street>
+            <city>潍坊</city>
+            <province>山东</province>
+        </address>
+    </addresses>
+    <phoneNumbers>
+        <phoneNumber>
+            <description>办公电话</description>
+            <number>6666-7777</number>
+        </phoneNumber>
+        <phoneNumber>
+            <description>手机</description>
+            <number>1XX-1234-5678</number>
+        </phoneNumber>
+    </phoneNumbers>
+</contact>

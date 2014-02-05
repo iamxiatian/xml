@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="test.xsd">
+	<hello>2001 2002</hello>
+	<whichYear>2008-02-09</whichYear>
+</test>
+

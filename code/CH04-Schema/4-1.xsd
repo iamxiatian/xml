@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="book">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="name" type="xsd:string"/>
+				<xsd:element name="author" type="xsd:string"/>
+				<xsd:element name="price" type="xsd:integer"/>
+				<xsd:element name="pages" type="xsd:integer"/>
+				<xsd:element name="introduction" type="xsd:string"/>
+				<xsd:element name="publish" minOccurs="0" maxOccurs="1">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="publisher" type="xsd:string"/>
+							<xsd:element name="pubDate" type="xsd:date"/>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+			<xsd:attribute name="isbn" type="xsd:string"/>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">   
+    <!-- 声明了一个课程元素，其类型为自定义复杂数据类型courseType -->
+    <xsd:element name="course" type="courseType"/>
+        
+    <!-- 以下为课程类型的声明，一个课程类型包含名称name和教师teacher两个子元素和课程代号code属性 -->
+    <xsd:complexType name="courseType">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="teacher" type="xsd:string" form="unqualified"/>
+        </xsd:sequence>
+        <xsd:attribute name="code" type="xsd:string" form="qualified" use="required"/>
+    </xsd:complexType>
+</xsd:schema>

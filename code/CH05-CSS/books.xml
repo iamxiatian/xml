@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="books-visual.css"?>
+<books>
+    <book isbn="978-1449319793" id="b1">
+        <title lang="EN">Python for Data Analysis</title>
+        <price currency="dollar">25.40</price>
+        <authors>
+            <author>Wes McKinney</author>
+        </authors>
+        <press>O'Reilly Media</press>
+        <pages>470</pages>
+        <description>Python for Data Analysis is concerned with the nuts and bolts of manipulating, processing, cleaning, and crunching data in Python. It is also a practical, modern introduction to scientific computing in Python, tailored for data-intensive applications. This is a book about the parts of the Python language and libraries you&amp;#8217;ll need to effectively solve a broad set of data analysis problems. This book is not an exposition on analytical methods using Python as the implementation language.</description>
+        <cover>book-python.jpg</cover>
+    </book>
+    <book isbn="978-7-115-28282-8" id="b2">
+        <title lang="CHN">数学之美</title>
+        <price>45.00</price>
+        <authors>
+            <author>吴军</author>
+        </authors>
+        <press>人民邮电出版社</press>
+        <pages>304</pages>
+        <description>读了“数学之美”，才发现大学时学的数学知识，比如马尔科夫链、矩阵计算，甚至余弦函数原来都如此亲切，并且栩栩如生，才发现自然语言和信息处理这么有趣，
+            才真正明白“数学是科学的皇后”这句名言。</description>
+        <cover>book-math.jpg</cover>
+    </book>
+</books>

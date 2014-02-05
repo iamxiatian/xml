@@ -1,0 +1,26 @@
+{
+    "name": "王某某",
+    "age": 30,
+    "spouse": {
+        "name": "张某某",
+        "age": 28
+    },
+    "addresses": [
+        {
+            "description": "工作住址",
+            "street": "胜利大街9号",
+            "city": "潍坊",
+            "province": "山东"
+        }
+    ], 
+    "phoneNumbers": [
+        {
+            "description": "办公电话",
+            "number": "6666-7777"
+        },
+        {
+            "description": "手机",
+            "number": "1XX-1234-5678"
+        }
+    ]
+}

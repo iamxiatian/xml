@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>HTML DOM Node Test</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />        
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var xhttp = new XMLHttpRequest();
+                xhttp.open("GET", 'books.xml', false);
+                xhttp.send();
+                var xmlDoc = xhttp.responseXML;    
+                var titleNodes = xmlDoc.getElementsByTagName("title");
+                var content = '';
+                for(var i=0; i<titleNodes.length; i++) {
+                    content = content + titleNodes[i].nodeName + ':';
+                    var tn = titleNodes[i].childNodes[0];
+                    if(tn.nodeType==3) content = content + tn.nodeValue + '<br/>';
+                }
+                document.getElementById('main').innerHTML = content;
+                
+                var firstBookNode = xmlDoc.getElementsByTagName('book')[0]; 
+                for(var node = firstBookNode.firstChild; node!=firstBookNode.lastChild; node = node.nextSibling) {
+                    console.info(node);
+                }
+            });
+        </script>
+    </head>
+    <body id="main">
+        
+    </body>
+</html>

@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<!DOCTYPE 数据 [
+	<!ELEMENT 数据 (#PCDATA)>
+	<!NOTATION gif SYSTEM "image/gif">
+	<!ENTITY 介绍数据 SYSTEM "intro.txt">	
+]>
+<数据>&介绍数据;</数据>

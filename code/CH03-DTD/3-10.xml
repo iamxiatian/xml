@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE 班级 [
+	<!ELEMENT 班级 (学生)*>
+	<!ELEMENT 学生 (#PCDATA)>	
+	<!ATTLIST 班级 名称 CDATA #REQUIRED>
+	<!ATTLIST 班级 班长 IDREF #IMPLIED>
+	<!ATTLIST 班级 班委 IDREFS #IMPLIED>
+	<!ATTLIST 学生 学号 ID #REQUIRED>
+]>
+<班级 名称="政务信息一班" 班长="S001" 班委="S001 S002 S004">
+	<学生 学号="S001">姜海明</学生>
+	<学生 学号="S002">李学健</学生>
+	<学生 学号="S003">方路</学生>
+	<学生 学号="S004">刘杨</学生>
+</班级>

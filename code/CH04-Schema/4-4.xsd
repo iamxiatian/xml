@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.1">
+    <xsd:element name="book">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="name" type="xsd:string"/>
+                <xsd:element name="author" type="xsd:string"/>
+                <xsd:element name="price" type="xsd:decimal"/>
+                <xsd:element name="introduction" type="xsd:string"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="books">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="computer-books">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element ref="book" maxOccurs="10"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="math-books">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element ref="book" maxOccurs="10"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
