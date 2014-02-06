@@ -33,7 +33,7 @@
   \leavevmode%
   \hbox{%
   \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
-    \usebeamerfont{author in head/foot}\insertshortauthor%~~\beamer@ifempty{\insertshortinstitute}{}{(\insertshortinstitute)}
+    \usebeamerfont{author in head/foot} \beamer@ifempty{\insertshortinstitute}{}{\insertshortinstitute} ~~ \insertshortauthor
   \end{beamercolorbox}%
   \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
     \usebeamerfont{title in head/foot}\insertshorttitle
@@ -74,8 +74,8 @@
 
 
 \title{XML原理与应用}
-\author{Summer X}
-\institute{RUC}
+\author{夏天}
+\institute{中国人民大学}
 %\date{\today{}}
 \date{}  %不在首页显示日期
 \frame{\titlepage}
