@@ -1,0 +1,20 @@
+body {
+    font-family:"Times New Roman","微软雅黑";
+}
+ul li {
+    list-style-type:none;
+}
+.cover {
+    width:150px;
+    height:200px;
+}
+.title {
+    font-size:20pt;
+    margin-bottom:20px;
+    color:red;
+}
+.description {
+    color:navy;
+    font-size:0.6em;
+    max-width:600px;
+}

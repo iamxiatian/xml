@@ -1,0 +1,18 @@
+body {
+    font-family:"Times New Roman","微软雅黑";
+}
+ul li {
+    list-style-type:none;
+}
+.cover {
+    width:150px;
+    height:200px;
+}
+.title {
+    font-size:20pt;
+    margin-bottom:20px;
+    color:orange;
+}
+.highPrice {
+    color:red;
+}

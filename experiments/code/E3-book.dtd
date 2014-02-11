@@ -1,0 +1,20 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT book (title,price,authors,press,pages,description,cover)>
+<!ATTLIST book
+  id ID #REQUIRED
+  isbn CDATA #REQUIRED>
+
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title
+  lang CDATA #REQUIRED>
+
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT authors (author)>
+<!ELEMENT press (#PCDATA)>
+<!ELEMENT pages (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT cover (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+
+<!ENTITY press "人民邮电出版社">

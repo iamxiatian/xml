@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="E4-book.xsd" isbn="978-7-115-28282-8" id="b2">
+    <title lang="CHN">数学之美</title>
+    <price>45.00</price>
+    <authors>
+        <author>吴军</author>
+    </authors>
+    <press>人民邮电出版社</press>
+    <pages>304</pages>
+    <description>读了“数学之美”，才发现大学时学的数学知识，比如马尔科夫链、矩阵计算，甚至余弦函数原来都如此亲切，并且栩栩如生，才发现自然语言和信息处理这么有趣，
+        才真正明白“数学是科学的皇后”这句名言。</description>
+    <cover>book-math.jpg</cover>
+</book>

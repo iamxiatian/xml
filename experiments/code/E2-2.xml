@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<contact>
+    <name>段玉</name>
+    <age>30</age>
+    <cellphone>123-4567-8901</cellphone>
+    <address>大理</address>
+    <spouse>
+        <name>王语嫣</name>
+        <age>28</age>
+    </spouse>
+</contact>

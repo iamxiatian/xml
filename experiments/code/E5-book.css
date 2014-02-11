@@ -1,0 +1,19 @@
+* { 
+    display:block;
+    color:navy;
+    margin-bottom:5px;
+    padding-left:5px;
+}
+title {
+    font-family:"微软雅黑";
+    font-size:24pt;
+    margin-bottom:20px;
+    color:orange;
+}
+price, pages, cover {
+    display:none;
+}
+description {    
+    padding-top:5px;
+    border-top:1px dotted gray;
+}
